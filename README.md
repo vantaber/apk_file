@@ -30,12 +30,15 @@ buildozer android debug deploy run
 
 
 
-[WARNING]: ERROR: /home/dima/PycharmProjects/pythonProject/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 failed!
+[INFO]:    COMMAND:
+cd /home/dima/PycharmProjects/pythonProject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/pyjnius-sdl2/armeabi-v7a__ndk_target_21/pyjnius && /home/dima/PycharmProjects/pythonProject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 setup.py build_ext -v
 
-# Command failed: ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=myapp', '--bootstrap=sdl2', '--requirements=python3,kivy', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/dima/PycharmProjects/pythonProject/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+[WARNING]: ERROR: /home/dima/PycharmProjects/pythonProject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 failed!
+
+# Command failed: ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=mymobilecalc', '--bootstrap=sdl2', '--requirements=python3,kivy', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/dima/PycharmProjects/pythonProject/.buildozer/android/platform/build-armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
 # ENVIRONMENT:
 #     SHELL = '/bin/bash'
-#     SESSION_MANAGER = 'local/dima-VirtualBox:@/tmp/.ICE-unix/924,unix/dima-VirtualBox:/tmp/.ICE-unix/924'
+#     SESSION_MANAGER = 'local/dima-VirtualBox:@/tmp/.ICE-unix/970,unix/dima-VirtualBox:/tmp/.ICE-unix/970'
 #     QT_ACCESSIBILITY = '1'
 #     COLORTERM = 'truecolor'
 #     XDG_CONFIG_DIRS = '/etc/xdg/xdg-ubuntu:/etc/xdg'
@@ -52,8 +55,8 @@ buildozer android debug deploy run
 #     LOGNAME = 'dima'
 #     XDG_SESSION_DESKTOP = 'ubuntu'
 #     XDG_SESSION_TYPE = 'wayland'
-#     SYSTEMD_EXEC_PID = '924'
-#     XAUTHORITY = '/run/user/1000/.mutter-Xwaylandauth.I3E791'
+#     SYSTEMD_EXEC_PID = '970'
+#     XAUTHORITY = '/run/user/1000/.mutter-Xwaylandauth.ZIX191'
 #     HOME = '/home/dima'
 #     USERNAME = 'dima'
 #     IM_CONFIG_PHASE = '1'
@@ -62,23 +65,23 @@ buildozer android debug deploy run
 #     XDG_CURRENT_DESKTOP = 'ubuntu:GNOME'
 #     VTE_VERSION = '6800'
 #     WAYLAND_DISPLAY = 'wayland-0'
-#     GNOME_TERMINAL_SCREEN = '/org/gnome/Terminal/screen/148811bc_708a_4064_93da_db9fc494a99d'
+#     GNOME_TERMINAL_SCREEN = '/org/gnome/Terminal/screen/43867db3_842b_4dc9_8c29_a73fe2d5afa5'
 #     GNOME_SETUP_DISPLAY = ':1'
 #     LESSCLOSE = '/usr/bin/lesspipe %s %s'
 #     XDG_SESSION_CLASS = 'user'
 #     TERM = 'xterm-256color'
 #     LESSOPEN = '| /usr/bin/lesspipe %s'
 #     USER = 'dima'
-#     GNOME_TERMINAL_SERVICE = ':1.181'
+#     GNOME_TERMINAL_SERVICE = ':1.118'
 #     DISPLAY = ':0'
 #     SHLVL = '1'
 #     QT_IM_MODULE = 'ibus'
-#     DBUS_STARTER_ADDRESS = 'unix:path=/run/user/1000/bus,guid=a7fe41c71043867098c230ab64e25f12'
+#     DBUS_STARTER_ADDRESS = 'unix:path=/run/user/1000/bus,guid=e3d289ac00df69b3ade7d19064e3cd55'
 #     XDG_RUNTIME_DIR = '/run/user/1000'
 #     XDG_DATA_DIRS = '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
-#     PATH = '/home/dima/.buildozer/android/platform/apache-ant-1.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dima/.local/bin/'
+#     PATH = '/home/dima/.buildozer/android/platform/apache-ant-1.9.4/bin:/home/dima/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'
 #     GDMSESSION = 'ubuntu'
-#     DBUS_SESSION_BUS_ADDRESS = 'unix:path=/run/user/1000/bus,guid=a7fe41c71043867098c230ab64e25f12'
+#     DBUS_SESSION_BUS_ADDRESS = 'unix:path=/run/user/1000/bus,guid=e3d289ac00df69b3ade7d19064e3cd55'
 #     _ = '/usr/local/bin/buildozer'
 #     PACKAGES_PATH = '/home/dima/.buildozer/android/packages'
 #     ANDROIDSDK = '/home/dima/.buildozer/android/platform/android-sdk'
@@ -91,3 +94,4 @@ buildozer android debug deploy run
 # Please read the full log, and search for it before
 # raising an issue with buildozer itself.
 # In case of a bug report, please add a full log with log_level = 2
+
